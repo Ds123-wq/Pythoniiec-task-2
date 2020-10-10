@@ -1,0 +1,66 @@
+<h1>Welcome to My terminal</h1>
+<style>
+body {
+  background-image: url('https://www.redhat.com/profiles/rh/themes/redhatdotcom/img/red-hat-social-share.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;	  
+}
+</style>
+
+
+<form action='http://192.168.43.36/cgi-bin/task2.py'>
+---------------Enter your  Linux commands------------- : </br>
+Enter your Linux command: <input type="text" name="x"><br/>
+
+<input type="Submit"></br>
+</form><br/>
+
+<form action='http://192.168.43.36/cgi-bin/docker.py'>
+---------------To run Docker container ------------- : </br>
+Enter your osname: <input type="text" name="x" ></br>
+Select your osimage: 
+<select name="i">
+<option>centos</option>
+<option>httpd</option>
+<option>wordpress</option>
+<option>ubuntu:18.04</option>
+</select><br/>
+<input type="Submit">
+
+</form>
+<form action='http://192.168.43.36/cgi-bin/docker-stop.py'>
+---------------To stop Docker container ------------- : </br>
+Enter your osname: <input type="text" name="x" ></br>
+<input type="Submit">
+
+</form>
+
+<form action='http://192.168.43.36/cgi-bin/docker-rms.py'>
+---------------To remove Docker container ------------- : </br>
+Enter your osname: <input type="text" name="x" ></br>
+<input type="Submit">
+
+</form>
+
+
+<form action='http://192.168.43.36/cgi-bin/docker-start.py'>
+---------------To start an running Docker container ------------- : </br>
+Enter your osname: <input type="text" name="x" ></br>
+<input type="Submit">
+
+</form>
+
+
+<form action='http://192.168.43.36/cgi-bin/docker-list.py'>
+---------------To see list of  running Docker container ------------- : </br>
+
+<input type="Submit">
+
+</form>
+
+
+<form action='http://192.168.43.36/cgi-bin/docker-list1.py'>
+---------------To see list of  running and stopped Docker container ------------- : </br>
+<input type="Submit">
+
+</form>
